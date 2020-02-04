@@ -1,0 +1,13 @@
+.m10 {
+    margin-top: 15px;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-footer-inner {
+    width: 80px;
+}
