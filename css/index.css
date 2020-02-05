@@ -1,3 +1,7 @@
+header nav a img {
+    margin-right: 10px;
+}
+
 .m10 {
     margin-top: 15px;
 }
@@ -16,3 +20,52 @@
     width: 150px;
 }
 
+.category {
+    /* margin: 10px; */
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.category > a > .fas {
+    font-size: 2rem;
+    width: 35px;
+    text-align: center;
+    /* color: black; */
+}
+
+.category > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+    /* color: black; */
+}
+
+.category:hover {
+    border: 1px solid black;
+}
+
+/* .category > a> i {
+    width: 50px;
+} */
+
+
+.category > a > div {
+    margin-left: 10px;
+}
+
+
+
+/* .category > span > a > span {
+    text-decoration: none;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.category > span {
+    display: flex;
+    align-self: center;
+} */
