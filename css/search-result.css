@@ -1,0 +1,58 @@
+header nav a img {
+    margin-right: 10px;
+}
+
+.m10 {
+    margin-top: 15px;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-footer-inner {
+    width: 80px;
+}
+
+.fas {
+    width: 20px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .search-column{
+        flex-direction: column;
+    }
+
+    .form-inline .custom-select, .form-inline .input-group {
+        width: 100%;
+    }
+
+    .search-column {
+        flex-direction: column;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .navbar {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .col {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar-text {
+        flex-direction: column;
+    }
+} 
+
+
