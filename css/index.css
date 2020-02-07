@@ -21,7 +21,6 @@ header nav a img {
 }
 
 .category {
-    /* margin: 10px; */
     box-sizing: border-box;
     padding: 20px;
     border: 1px solid transparent;
@@ -33,39 +32,52 @@ header nav a img {
     font-size: 2rem;
     width: 35px;
     text-align: center;
-    /* color: black; */
 }
 
 .category > a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    
-    /* color: black; */
 }
 
 .category:hover {
     border: 1px solid black;
 }
 
-/* .category > a> i {
-    width: 50px;
-} */
-
-
 .category > a > div {
     margin-left: 10px;
 }
 
+@media (max-width: 900px) {
+    .search-column {
+        flex-direction: column;
+    }
 
+    .form-inline .custom-select, .form-inline .input-group {
+        width: 100%;
+    }
 
-/* .category > span > a > span {
-    text-decoration: none;
-    margin-left: 10px;
-    text-decoration: none;
+    .col {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .navbar {
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 
-.category > span {
-    display: flex;
-    align-self: center;
-} */
+@media (max-width: 400px) {
+    .navbar-text {
+        flex-direction: column;
+    }
+}
