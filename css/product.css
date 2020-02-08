@@ -1,0 +1,87 @@
+header nav a img {
+    margin-right: 10px;
+}
+
+.m10 {
+    margin-top: 15px;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-footer-inner {
+    width: 80px;
+}
+
+.fas {
+    width: 20px;
+    text-align: center;
+}
+
+.card-img {
+    width: 250px;
+}
+
+.wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.img-small {
+    width: 100%;
+}
+
+.vadim {
+    width: 40%;
+    left: 30%;
+    top: -30px;
+}
+
+@media (max-width: 992px) {
+    .container-margin {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+    }
+
+    .vadim {
+        width: 30%;
+        left: 35%;
+        top: -40px;
+    }
+
+    .container-margin-inner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .form-inline .custom-select, .form-inline .input-group {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .navbar {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .col {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar-text {
+        flex-direction: column;
+    }
+}
